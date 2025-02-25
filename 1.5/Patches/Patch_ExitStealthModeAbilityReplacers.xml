@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	  
+	  <Operation Class="PatchOperationFindMod" IfModActive="guy762.StarWarsXenotypes">
+		<mods>
+			<li>Star Wars Xenotypes</li>
+			<li>Star Wars KotOR Weapons and Armor</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+		  <operations>
+		  
+		  
+		  
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField_defel"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_Invisibility">
+						<visibleToPlayer>true</visibleToPlayer>
+					  </li>
+					  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+					  <li MayRequire="smartkar.athenaframework" Class="AthenaFramework.HediffCompProperties_DisableOnDamage">
+						<minDamage>0.1</minDamage>
+					  </li>
+					  
+					  
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+				  </comps>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+					  <li Class="HediffCompProperties_Disappears">
+						<disappearsAfterTicks>1800</disappearsAfterTicks> <!-- 30 seconds -->
+						<showRemainingTime>True</showRemainingTime>
+					  </li>
+					</comps>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField_sixty"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+					  <li Class="HediffCompProperties_Disappears">
+						<disappearsAfterTicks>3600</disappearsAfterTicks> <!-- 60 seconds -->
+						<showRemainingTime>True</showRemainingTime>
+					  </li>
+					</comps>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField_twomin"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+					  <li Class="HediffCompProperties_Disappears">
+						<disappearsAfterTicks>7200</disappearsAfterTicks> <!-- 2 minutes -->
+						<showRemainingTime>True</showRemainingTime>
+					  </li>
+					</comps>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField_threemin"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+					  <li Class="HediffCompProperties_Disappears">
+						<disappearsAfterTicks>10800</disappearsAfterTicks> <!-- 3 minutes -->
+						<showRemainingTime>True</showRemainingTime>
+					  </li>
+					</comps>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/HediffDef[defName="guy762_StealthField_fourmin"]/comps</xpath>
+				<value>
+				
+				  <comps>
+					  <li Class="HediffCompProperties_GiveAbility">
+						<abilityDef>guy762_StealthDeactivate_ForceCloak</abilityDef>
+					  </li>
+					  <li Class="HediffCompProperties_Disappears">
+						<disappearsAfterTicks>14400</disappearsAfterTicks> <!-- 4 minutes -->
+						<showRemainingTime>True</showRemainingTime>
+					  </li>
+					</comps>
+					
+				</value>
+			</li>
+			
+			
+			
+		  </operations>
+		</match>
+	  
+	  </Operation>
+	  
+	 
+
+
+</Patch>

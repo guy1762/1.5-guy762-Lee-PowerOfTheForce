@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="ProgressTrackerHediffBase"> 
+		<defName>SWPotF_Hediff_ForceProgression</defName>
+		<hediffClass>ItsSorceryFramework.Hediff_ProgressLevel</hediffClass>
+		<label>Force sensitivity</label>
+		<defaultLabelColor>(195,155,205)</defaultLabelColor> <!-- lavender -->
+		<description>Sensitivity to the Force.</description>
+		<initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
+		<minSeverity>0</minSeverity>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		<stages>	
+		</stages>
+		
+		<allowedMeditationFocusTypes>
+			<!--li>Dignified</li-->
+			<li>Artistic</li>
+			<li>Minimal</li>
+			<!-- <li>Natural</li> lightside -->
+			<!-- <li>Morbid</li> darkside -->
+			<!-- <li>Flame</li> darkside -->
+		</allowedMeditationFocusTypes>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>SWPotF_hediff_SaberTraining</defName>
+		<label>Lightsaber training</label>
+		<description>This hediff grants immunity to the invisible hediff that the "Disarm" ability functions through, meaning this pawn cannot be disarmed through that ability.</description>
+		<defaultLabelColor>(195,155,205)</defaultLabelColor> <!-- lavender -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<becomeVisible>false</becomeVisible>
+			<makeImmuneTo>
+				<li>SWPotF_hediff_ForceDisarm</li>
+			</makeImmuneTo>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef>
+		<defName>SWPotF_hediff_NoLongerTrainable</defName>
+		<label>Completed Force training</label>
+		<description>This hidden hediff blocks the "Apprentice" hediff given by the Apprenticeship ability, as this pawn is now a fully-trained Force-user.</description>
+		<defaultLabelColor>(195,155,205)</defaultLabelColor> <!-- lavender -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<becomeVisible>false</becomeVisible>
+			<makeImmuneTo>
+				<li>SWPotF_hediff_apprentice</li>
+			</makeImmuneTo>
+		  </li>
+		</stages>
+	  </HediffDef>
+	
+	
+	<ItsSorceryFramework.ProgressTrackerDef ParentName = "ProgressTrackerLevelBase">
+		<progressTrackerClass>ItsSorceryFramework.ProgressTracker_Level</progressTrackerClass>
+		<defName>SWPotF_ProgressTracker_ForceLvl</defName>
+		<label>Force connection</label>
+		<bgPath>UI/ForceSchemaBackground</bgPath>
+		
+		<progressLevelUpKey>SWPotF_Force_LevelUp</progressLevelUpKey>
+		<progressLevelUpDescKey>SWPotF_Force_LevelUpMessage</progressLevelUpDescKey>
+		<skillPointLabelKey>SWPotF_Force_SkillPointLabel</skillPointLabelKey>
+		
+		<progressHediff>SWPotF_Hediff_ForceProgression</progressHediff>
+		
+		<levelRange>1~50</levelRange>
+		<levelLabels>
+			<li><level>1</level><label>initiate</label></li>
+			<li><level>5</level><label>adept</label></li>		
+			<li><level>10</level><label>trained</label></li>
+			<li><level>15</level><label>skilled</label></li>
+			<li><level>20</level><label>expert</label></li>
+			<li><level>30</level><label>master</label></li>
+			<li><level>40</level><label>great master</label></li>
+			<li><level>50</level><label>legend</label></li>
+		</levelLabels>
+		<expTags>
+			<li>SWPotF_ForceEXPTag_DuringJob</li>
+			<li>SWPotF_ForceEXPTag_OnSkillEXP</li>
+		</expTags>
+		
+		
+		<!--levelFactors>
+			<li>
+				<level>1</level>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<level>3</level>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<optionChoices>2</optionChoices>
+				<options>
+					<li>
+						<label>Speed</label>
+						<description>The quicker your legs, the quicker the mind.</description>
+						<statOffsets>
+							<MoveSpeed>0.25</MoveSpeed>
+						</statOffsets>
+					</li>
+					<li>
+						<label>Wit</label>
+						<description>Clever men and women do much more with the same amount of knowledge.</description>
+						<statOffsets>
+							<GlobalLearningFactor>0.1</GlobalLearningFactor>
+						</statOffsets>
+					</li>
+					<li>
+						<label>Focus</label>
+						<description>Steady towards the goal- that's how progress is really made.</description>
+						<statOffsets>
+							<PainShockThreshold>-0.05</PainShockThreshold>
+						</statOffsets>
+					</li>
+				</options>
+			</li>
+			<li>
+				<level>5</level>
+				<statOffsets>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+			</li>
+		</levelFactors-->
+		<levelSpecifics>
+			<li>
+				<level>1</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>2</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>3</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>4</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>5</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>6</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>7</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>8</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>9</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>10</level>
+				<pointGain>2</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+				<hediffAdd>
+					<li>
+						<hediffDef>SWPotF_hediff_SaberTraining</hediffDef>
+					</li>
+				</hediffAdd>
+			</li>
+			
+			
+			<!--\\\\\\\\\\\\\\ knight rank \\\\\\\\\\\\\\-->
+			
+			
+			<li>
+				<level>11</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>12</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>13</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>14</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>15</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+				<hediffAdd>
+					<li>
+						<hediffDef>SWPotF_hediff_NoLongerTrainable</hediffDef>
+					</li>
+				</hediffAdd>
+			</li>
+			<li>
+				<level>16</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>17</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>18</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>19</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>20</level>
+				<pointGain>2</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+				
+				<!--capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>1</offset>
+					</li>
+				</capMods-->
+			</li>
+			
+			
+			<!--\\\\\\\\\\\\\\ expert rank \\\\\\\\\\\\\\-->
+			
+			
+			<li>
+				<level>21</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>22</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>23</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>24</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>25</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>26</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>27</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>28</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>29</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>30</level>
+				<pointGain>2</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			
+			<!--\\\\\\\\\\\\\\ master rank \\\\\\\\\\\\\\-->
+			
+			
+			<li>
+				<level>31</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>32</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>33</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>34</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>35</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>36</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>37</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>38</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>39</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>40</level>
+				<pointGain>2</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			
+			
+			<!--\\\\\\\\\\\\\\ great master rank \\\\\\\\\\\\\\-->
+			
+			
+			<li>
+				<level>41</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>42</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>43</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>44</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>45</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>46</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>47</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>48</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>49</level>
+				<pointGain>1</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			<li>
+				<level>50</level>
+				<pointGain>2</pointGain>
+				<statOffsets>
+					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
+				</statOffsets>
+			</li>
+			
+			
+		</levelSpecifics>
+	</ItsSorceryFramework.ProgressTrackerDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+</Defs>

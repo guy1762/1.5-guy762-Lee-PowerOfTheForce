@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<!--li IfModActive="erdelf.HumanoidAlienRaces">1.5/AdditionalMods/HAR</li>
+		
+		<li IfModNotActive="jecrell.jecstools">1.5/AdditionalMods/_BorrowedFromJecsTools</li-->
+	</v1.5>
+</loadFolders>

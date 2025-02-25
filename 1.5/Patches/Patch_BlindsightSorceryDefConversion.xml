@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	  
+	  <Operation Class="PatchOperationFindMod" IfModActive="guy762.StarWarsXenotypes">
+		<mods>
+			<li>Star Wars Xenotypes</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+		  <operations>
+		  
+		  
+		  
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/AbilityDef[defName="guy762_GeneAbility_forcesight"]/statBases</xpath>
+				<value>
+				
+				  <statBases>
+					  <Ability_Duration>500</Ability_Duration>
+					</statBases>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/AbilityDef[defName="guy762_GeneAbility_forcesight"]/category</xpath>
+				<value>
+				
+				  <category>Sorcery</category>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+			  <xpath>Defs/AbilityDef[defName="guy762_GeneAbility_forcesight"]/abilityClass</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+			  <xpath>Defs/AbilityDef[defName="guy762_GeneAbility_forcesight"]/level</xpath>
+			</li>
+			
+			
+			
+		  </operations>
+		</match>
+	  
+	  </Operation>
+	  
+	 
+
+
+</Patch>

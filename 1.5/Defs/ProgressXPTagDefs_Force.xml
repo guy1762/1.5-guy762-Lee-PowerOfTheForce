@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!--ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_CastEnergyCost">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_CastEnergyCost</workerClass>
+		<defName>SWPotF_ForceEXPTag_CastEnergyCost</defName>
+		<expFactor>1</expFactor>
+	</ItsSorceryFramework.ProgressEXPTagDef>     PROGRESSION GAIN EVERY TIME A SorceryDef ABILITY IS CAST -->
+	
+	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_DuringJob">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_DuringJob</workerClass>
+		<defName>SWPotF_ForceEXPTag_DuringJob</defName>
+		<expFactor>0.01</expFactor>
+		<jobSets>
+			<li>
+				<label>Meditating</label>
+				<jobDefs>
+					<li>Meditate</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Reign</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">MeditatePray</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">PruneGauranlenTree</li>
+				</jobDefs>
+			</li>
+			<!--li>
+				<label>Teaching</label>
+				<jobDefs>
+					<li>SWPotF_CastAbilityOnThingMelee</li>
+				</jobDefs>
+			</li-->
+		</jobSets>
+	</ItsSorceryFramework.ProgressEXPTagDef>
+	
+	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnSkillEXP">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnSkillEXP</workerClass>
+		<defName>SWPotF_ForceEXPTag_OnSkillEXP</defName>
+		<expFactor>0.001</expFactor>
+		<skillDefs>
+			<li>Artistic</li>
+			<!--li>Intellectual</li-->
+		</skillDefs>
+	</ItsSorceryFramework.ProgressEXPTagDef>
+	
+	<!--ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_UseItem">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_UseItem</workerClass>
+		<defName>ISFE_Logos_EXPTag_UseItem</defName>
+		<expFactor>1</expFactor>
+		<expItems>
+			<li>
+				<thingDef>Milk</thingDef>
+				<exp>50</exp>
+				<expFactorStat>GlobalLearningFactor</expFactorStat>
+			</li>
+		</expItems>
+	</ItsSorceryFramework.ProgressEXPTagDef-->
+	
+	
+</Defs>

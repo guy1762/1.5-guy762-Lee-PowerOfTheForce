@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ItsSorceryFramework.SorceryDef Name="SWPotF_forcepower_base" ParentName="SorceryBase" Abstract="True">
+		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
+		<aiCanUse>true</aiCanUse>
+		<uiOrder>762</uiOrder>
+		
+		<writeCombatLog>True</writeCombatLog>
+	  </ItsSorceryFramework.SorceryDef>
+	  
+	  
+
+</Defs>

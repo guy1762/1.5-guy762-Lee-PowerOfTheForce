@@ -1,0 +1,17 @@
+kotor 1 blue to kotor 2 green:
+
+hue -65 lightness -25
+brightness -25 contrast +50
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+kotor 2 green to kotor 1 blue:
+
+hue +65
+brightness +50 contrast +25
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+kotor 1 blue to red:
+
+hue +140

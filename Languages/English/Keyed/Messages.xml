@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--ISFE_Logos_Brainpower_Message_HitLimit>{PAWN} is mentally burnt out. {PAWN_possessive} mind can barely function.</ISFE_Logos_Brainpower_Message_HitLimit-->
+	
+	<SWPotF_Force_LevelUp>Force connection increased: {0}</SWPotF_Force_LevelUp>
+	<SWPotF_Force_LevelUpMessage>This pawn has strengthened their connection to the Force from level {0} to level {1}.</SWPotF_Force_LevelUpMessage>
+	<SWPotF_Force_SkillPointLabel>Force power unlocks</SWPotF_Force_SkillPointLabel>
+	
+	<SWPotF_DisableReason_ForcePoints>{0}'s Force points have been depleted!</SWPotF_DisableReason_ForcePoints>
+	
+	
+	<Form_I>Form I: Shii-Cho  Users: Kit Fisto  \n\n Shii-Cho, the Way of the Sarlacc, is the most basic form focusing on wide, sweeping strikes and disarming techniques, ideal for beginners seeking simplicity and versatility in combat.</Form_I>
+	<Form_II>Form II: Makashi  Users: Count Dooku  \n\n Makashi, the Way of the Ysalamiri:, is characterized by its elegant and precise movements, emphasizing dueling and defensive maneuvers, making it favored by those seeking finesse and sophistication in combat.</Form_II>
+	<Form_III>Form III: Soresu  Users: Obi-Wan Kenobi  \n\n Soresu, the Way of the Mynock, is a defensive form focused on tight, efficient movements and quick reflexes, designed to provide maximum protection against blaster fire and lightsaber attacks.</Form_III>
+	<Form_IV>Form IV: Ataru  Users: Yoda  \n\n Ataru, the Way of the Hawk-Bat, is an acrobatic and aggressive style characterized by its fast-paced, energetic movements, incorporating flips and spins to overwhelm opponents with speed and unpredictability.</Form_IV>
+	<Form_V>Form V: Shien/Djem So  Users: Anakin Skywalker, Ahsoka Tano  \n\n Shien and Djem So, also known as the Perseverance and Way of the Krayt Dragon respectively, are variants of the same form emphasizing powerful counterattacks and aggressive deflection, suited for warriors seeking to turn their opponent's strength against them.</Form_V>
+	<Form_VI>Form VI: Niman  Users: Darth Maul  \n\n Niman, the Way of the Rancor, is a balanced form incorporating elements of all previous forms, providing practitioners with versatility and adaptability in combat situations, making it a preferred choice for diplomats and peacekeepers.</Form_VI>
+	<Form_VII>Form VII: Juyo/Vaapad  Users: Mace Windu   \n\n Juyo and its variant Vaapad, the Ferocity and the Way of the Vornskr respectively, are aggressive and unpredictable styles that channel the user's inner darkness, offering immense offensive power at the risk of succumbing to the dark side of the Force.</Form_VII>
+</LanguageData>

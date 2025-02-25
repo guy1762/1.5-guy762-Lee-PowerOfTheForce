@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BoomerangRequireWeapon>You must equip a weapon to use this ability!</BoomerangRequireWeapon>
+  <BoomerangRequireMelee>You must equip a melee weapon to use this ability!</BoomerangRequireMelee>
+</LanguageData>
