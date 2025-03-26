@@ -3,6 +3,7 @@
 	
 
 	<ItsSorceryFramework.EnergyTrackerDef ParentName = "ISF_EnergyTrackerBase">
+		<energyTrackerClass>ItsSorceryFramework.EnergyTracker</energyTrackerClass>
 		<defName>SWPotF_EnergyTracker_ForcePoints</defName>
 		<label>Force points</label>
 		<normalBarColor>(195,155,205)</normalBarColor>

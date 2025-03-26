@@ -65,86 +65,74 @@
 		<defName>SWPotF_ProgressTracker_ForceLvl</defName>
 		<label>Force connection</label>
 		<bgPath>UI/ForceSchemaBackground</bgPath>
-		
 		<progressLevelUpKey>SWPotF_Force_LevelUp</progressLevelUpKey>
 		<progressLevelUpDescKey>SWPotF_Force_LevelUpMessage</progressLevelUpDescKey>
 		<skillPointLabelKey>SWPotF_Force_SkillPointLabel</skillPointLabelKey>
 		
 		<progressHediff>SWPotF_Hediff_ForceProgression</progressHediff>
+		<baseClass>SWPotF_ProgressTrackerClass_1thru10_ForceLvl</baseClass>
+		<!-- <classes> -->
+			<!-- <li>SWPotF_ProgressTrackerClass_1thru10_ForceLvl</li> -->
+			<!-- <li>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</li> -->
+			<!-- <li>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</li> -->
+			<!-- <li>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</li> -->
+			<!-- <li>SWPotF_ProgressTrackerClass_40thru50_ForceLvl</li> -->
+		<!-- </classes> -->
+
+	</ItsSorceryFramework.ProgressTrackerDef>
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef Abstract = "True" Name = "SWPotF_ProgressTrackerClass_base_ForceLvl" ParentName = "ProgressTrackerClassBase">
+		<progressTrackerDef>SWPotF_ProgressTracker_ForceLvl</progressTrackerDef>
 		
-		<levelRange>1~50</levelRange>
-		<levelLabels>
-			<li><level>1</level><label>initiate</label></li>
-			<li><level>5</level><label>adept</label></li>		
-			<li><level>10</level><label>trained</label></li>
-			<li><level>15</level><label>skilled</label></li>
-			<li><level>20</level><label>expert</label></li>
-			<li><level>30</level><label>master</label></li>
-			<li><level>40</level><label>great master</label></li>
-			<li><level>50</level><label>legend</label></li>
-		</levelLabels>
 		<expTags>
 			<li>SWPotF_ForceEXPTag_DuringJob</li>
 			<li>SWPotF_ForceEXPTag_OnSkillEXP</li>
 		</expTags>
+	</ItsSorceryFramework.ProgressTrackerClassDef>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_ForceLvl">
+		<defName>SWPotF_ProgressTrackerClass_1thru10_ForceLvl</defName>
+		<label>Apprentice Force training</label>
+		<description>.</description>
+		<linkedClasses>
+			<li>
+				<classDef>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</classDef>
+				<levelReset>False</levelReset>
+				<benefitReset>False</benefitReset>
+				<removePostClassChange>True</removePostClassChange>
+			</li>
+		</linkedClasses>
 		
+		<levelRange>1~10</levelRange>
+		<levelLabels>
+			<li><level>1</level><label>initiate</label></li>
+			<li><level>5</level><label>adept</label></li>		
+			<li><level>10</level><label>trained</label></li>
+		</levelLabels>
 		
-		<!--levelFactors>
-			<li>
-				<level>1</level>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>
-			<li>
-				<level>3</level>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.2</offset>
-					</li>
-				</capMods>
-				<optionChoices>2</optionChoices>
-				<options>
-					<li>
-						<label>Speed</label>
-						<description>The quicker your legs, the quicker the mind.</description>
-						<statOffsets>
-							<MoveSpeed>0.25</MoveSpeed>
-						</statOffsets>
-					</li>
-					<li>
-						<label>Wit</label>
-						<description>Clever men and women do much more with the same amount of knowledge.</description>
-						<statOffsets>
-							<GlobalLearningFactor>0.1</GlobalLearningFactor>
-						</statOffsets>
-					</li>
-					<li>
-						<label>Focus</label>
-						<description>Steady towards the goal- that's how progress is really made.</description>
-						<statOffsets>
-							<PainShockThreshold>-0.05</PainShockThreshold>
-						</statOffsets>
-					</li>
-				</options>
-			</li>
-			<li>
-				<level>5</level>
-				<statOffsets>
-					<MoveSpeed>0.5</MoveSpeed>
-				</statOffsets>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.3</offset>
-					</li>
-				</capMods>
-			</li>
-		</levelFactors-->
 		<levelSpecifics>
 			<li>
 				<level>1</level>
@@ -220,12 +208,53 @@
 						<hediffDef>SWPotF_hediff_SaberTraining</hediffDef>
 					</li>
 				</hediffAdd>
+				<specialClasses>
+					<li>
+						<classDef>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</classDef>
+						<levelReset>False</levelReset>
+						<benefitReset>False</benefitReset>
+						<removePostClassChange>True</removePostClassChange>
+					</li>
+				</specialClasses>
 			</li>
-			
-			
-			<!--\\\\\\\\\\\\\\ knight rank \\\\\\\\\\\\\\-->
-			
-			
+		</levelSpecifics>
+
+	</ItsSorceryFramework.ProgressTrackerClassDef>
+	
+	
+	
+	
+	
+	
+	
+	<!--\\\\\\\\\\\\\\ knight rank \\\\\\\\\\\\\\-->
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_ForceLvl">
+		<defName>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</defName>
+		<label>Intermediate Force training</label>
+		<description>.</description>
+		<linkedClasses>
+			<li>
+				<classDef>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</classDef>
+				<levelReset>False</levelReset>
+				<benefitReset>False</benefitReset>
+				<removePostClassChange>True</removePostClassChange>
+			</li>
+		</linkedClasses>
+		
+		<prereqLevel>10</prereqLevel>
+		<prereqsClassDefs>
+			<li>SWPotF_ProgressTrackerClass_1thru10_ForceLvl</li>
+		</prereqsClassDefs>
+		
+		<levelRange>10~20</levelRange>
+		<levelLabels>
+			<li><level>10</level><label>trained</label></li>
+			<li><level>15</level><label>skilled</label></li>
+			<li><level>20</level><label>expert</label></li>
+		</levelLabels>
+		
+		<levelSpecifics>
 			<li>
 				<level>11</level>
 				<pointGain>1</pointGain>
@@ -300,19 +329,57 @@
 				<statOffsets>
 					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
 				</statOffsets>
-				
-				<!--capMods>
+				<specialClasses>
 					<li>
-						<capacity>Consciousness</capacity>
-						<offset>1</offset>
+						<classDef>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</classDef>
+						<levelReset>False</levelReset>
+						<benefitReset>False</benefitReset>
+						<removePostClassChange>True</removePostClassChange>
 					</li>
-				</capMods-->
+				</specialClasses>
 			</li>
-			
-			
-			<!--\\\\\\\\\\\\\\ expert rank \\\\\\\\\\\\\\-->
-			
-			
+		</levelSpecifics>
+
+	</ItsSorceryFramework.ProgressTrackerClassDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--\\\\\\\\\\\\\\ expert rank \\\\\\\\\\\\\\-->
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_ForceLvl">
+		<defName>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</defName>
+		<label>Expert Force training</label>
+		<description>.</description>
+		<linkedClasses>
+			<li>
+				<classDef>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</classDef>
+				<levelReset>False</levelReset>
+				<benefitReset>False</benefitReset>
+				<removePostClassChange>True</removePostClassChange>
+			</li>
+		</linkedClasses>
+		
+		<prereqLevel>20</prereqLevel>
+		<prereqsClassDefs>
+			<li>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</li>
+		</prereqsClassDefs>
+		
+		<levelRange>20~30</levelRange>
+		<levelLabels>
+			<li><level>20</level><label>expert</label></li>
+			<li><level>30</level><label>master</label></li>
+		</levelLabels>
+		
+		<levelSpecifics>
 			<li>
 				<level>21</level>
 				<pointGain>1</pointGain>
@@ -382,11 +449,53 @@
 				<statOffsets>
 					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
 				</statOffsets>
+				<specialClasses>
+					<li>
+						<classDef>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</classDef>
+						<levelReset>False</levelReset>
+						<benefitReset>False</benefitReset>
+						<removePostClassChange>True</removePostClassChange>
+					</li>
+				</specialClasses>
 			</li>
-			
-			<!--\\\\\\\\\\\\\\ master rank \\\\\\\\\\\\\\-->
-			
-			
+		</levelSpecifics>
+
+	</ItsSorceryFramework.ProgressTrackerClassDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--\\\\\\\\\\\\\\ master rank \\\\\\\\\\\\\\-->
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_ForceLvl">
+		<defName>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</defName>
+		<label>Master Force training</label>
+		<description>.</description>
+		<linkedClasses>
+			<li>
+				<classDef>SWPotF_ProgressTrackerClass_40thru50_ForceLvl</classDef>
+				<levelReset>False</levelReset>
+				<benefitReset>False</benefitReset>
+				<removePostClassChange>True</removePostClassChange>
+			</li>
+		</linkedClasses>
+		
+		<prereqLevel>30</prereqLevel>
+		<prereqsClassDefs>
+			<li>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</li>
+		</prereqsClassDefs>
+		
+		<levelRange>30~40</levelRange>
+		<levelLabels>
+			<li><level>30</level><label>master</label></li>
+			<li><level>40</level><label>great master</label></li>
+		</levelLabels>
+		
+		<levelSpecifics>
 			<li>
 				<level>31</level>
 				<pointGain>1</pointGain>
@@ -456,12 +565,45 @@
 				<statOffsets>
 					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
 				</statOffsets>
+				<specialClasses>
+					<li>
+						<classDef>SWPotF_ProgressTrackerClass_40thru50_ForceLvl</classDef>
+						<levelReset>False</levelReset>
+						<benefitReset>False</benefitReset>
+						<removePostClassChange>True</removePostClassChange>
+					</li>
+				</specialClasses>
 			</li>
-			
-			
-			<!--\\\\\\\\\\\\\\ great master rank \\\\\\\\\\\\\\-->
-			
-			
+		</levelSpecifics>
+
+	</ItsSorceryFramework.ProgressTrackerClassDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--\\\\\\\\\\\\\\ legend rank \\\\\\\\\\\\\\-->
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_ForceLvl">
+		<defName>SWPotF_ProgressTrackerClass_40thru50_ForceLvl</defName>
+		<label>Legend Force training</label>
+		<description>.</description>
+		
+		<prereqLevel>30</prereqLevel>
+		<prereqsClassDefs>
+			<li>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</li>
+		</prereqsClassDefs>
+		
+		<levelRange>40~50</levelRange>
+		<levelLabels>
+			<li><level>40</level><label>great master</label></li>
+			<li><level>50</level><label>legend</label></li>
+		</levelLabels>
+		
+		<levelSpecifics>
 			<li>
 				<level>41</level>
 				<pointGain>1</pointGain>
@@ -532,19 +674,9 @@
 					<SWPotF_ForcePoints_Max>10</SWPotF_ForcePoints_Max>
 				</statOffsets>
 			</li>
-			
-			
 		</levelSpecifics>
-	</ItsSorceryFramework.ProgressTrackerDef>
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	</ItsSorceryFramework.ProgressTrackerClassDef>
 	
 	
 	

@@ -4,7 +4,7 @@
 	<ItsSorceryFramework.SorcerySchemaDef ParentName = "SorcerySchemaBase">
 		<defName>SWPotF_ForceSchema</defName>
 		<label>The Force</label>
-		<description>The Force.</description>
+		<description>The Force - the invisible energy field that permeates and binds all life in the galaxy.</description>
 	
 		<energyTrackerDefs>
 			<li>SWPotF_EnergyTracker_ForcePoints</li>

@@ -10,6 +10,11 @@
 	<SWPotF_DisableReason_ForcePoints>{0}'s Force points have been depleted!</SWPotF_DisableReason_ForcePoints>
 	
 	
+	<SWPotF_HeroMode_LevelUp>Heroic level increased: {0}</SWPotF_HeroMode_LevelUp>
+	<SWPotF_HeroMode_LevelUpMessage>This pawn has Hero progression from level {0} to level {1}.</SWPotF_HeroMode_LevelUpMessage>
+	<SWPotF_HeroMode_SkillPointLabel>Feat unlocks</SWPotF_HeroMode_SkillPointLabel>
+	
+	
 	<Form_I>Form I: Shii-Cho  Users: Kit Fisto  \n\n Shii-Cho, the Way of the Sarlacc, is the most basic form focusing on wide, sweeping strikes and disarming techniques, ideal for beginners seeking simplicity and versatility in combat.</Form_I>
 	<Form_II>Form II: Makashi  Users: Count Dooku  \n\n Makashi, the Way of the Ysalamiri:, is characterized by its elegant and precise movements, emphasizing dueling and defensive maneuvers, making it favored by those seeking finesse and sophistication in combat.</Form_II>
 	<Form_III>Form III: Soresu  Users: Obi-Wan Kenobi  \n\n Soresu, the Way of the Mynock, is a defensive form focused on tight, efficient movements and quick reflexes, designed to provide maximum protection against blaster fire and lightsaber attacks.</Form_III>
