@@ -97,6 +97,7 @@
 			  <li>Cut</li>
 			  <li>Crush</li>
 			  <li>Blunt</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_BluntLightsaber</li>
 			  <li>Poke</li>
 			  <li>Stab</li>
 			  <li>Scratch</li>
@@ -111,6 +112,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>
@@ -256,6 +258,7 @@
 			  <li>Cut</li>
 			  <li>Crush</li>
 			  <li>Blunt</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_BluntLightsaber</li>
 			  <li>Poke</li>
 			  <li>Stab</li>
 			  <li>Scratch</li>
@@ -270,6 +273,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>
@@ -420,6 +424,7 @@
 			  <li>Cut</li>
 			  <li>Crush</li>
 			  <li>Blunt</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_BluntLightsaber</li>
 			  <li>Poke</li>
 			  <li>Stab</li>
 			  <li>Scratch</li>
@@ -434,6 +439,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>
 			  <li>guy762_RangedDamage_disruptor</li>

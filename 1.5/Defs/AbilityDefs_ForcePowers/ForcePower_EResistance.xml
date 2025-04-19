@@ -90,11 +90,17 @@
 			  <li>guy762_MeleeDamage_energy</li>
 			  <li>guy762_MeleeDamage_ecut</li>
 			  <li>guy762_MeleeDamage_estab</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_LightsaberCut</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberSlash</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberStab</li>
 			  <li>guy762_ExplosiveDamage_energy</li>
 			  <li>guy762_GrenadeDamage_energy</li>
 			  <li>guy762_GrenadeDamage_thermaldet</li>
 			  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
-			  <li>guy762_RangedDamage_concussion</li>
+			  <li>guy762_RangedDamage_KOstun</li>
+			  
+			  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
+			  <li>guy762_ExplosiveDamage_AntiVehicleEnergy</li>
 			  
 			  <li>guy762_RangedDamage_electrical</li>
 			  <li>guy762_MeleeDamage_electrical</li>
@@ -257,11 +263,17 @@
 			  <li>guy762_MeleeDamage_energy</li>
 			  <li>guy762_MeleeDamage_ecut</li>
 			  <li>guy762_MeleeDamage_estab</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_LightsaberCut</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberSlash</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberStab</li>
 			  <li>guy762_ExplosiveDamage_energy</li>
 			  <li>guy762_GrenadeDamage_energy</li>
 			  <li>guy762_GrenadeDamage_thermaldet</li>
 			  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
-			  <li>guy762_RangedDamage_concussion</li>
+			  <li>guy762_RangedDamage_KOstun</li>
+			  
+			  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
+			  <li>guy762_ExplosiveDamage_AntiVehicleEnergy</li>
 			  
 			  <li>guy762_RangedDamage_electrical</li>
 			  <li>guy762_MeleeDamage_electrical</li>
@@ -429,12 +441,18 @@
 			  <li>guy762_MeleeDamage_energy</li>
 			  <li>guy762_MeleeDamage_ecut</li>
 			  <li>guy762_MeleeDamage_estab</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_LightsaberCut</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberSlash</li>
+			  <li MayRequire="lee.theforce.lightsaber">Force_SaberStab</li>
 			  <li>guy762_ExplosiveDamage_energy</li>
 			  <li>guy762_GrenadeDamage_energy</li>
 			  <li>guy762_GrenadeDamage_thermaldet</li>
 			  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
-			  <li>guy762_RangedDamage_concussion</li>
+			  <li>guy762_RangedDamage_KOstun</li>
 			  
+			  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
+			  <li>guy762_ExplosiveDamage_AntiVehicleEnergy</li>
+		  
 			  <li>guy762_RangedDamage_electrical</li>
 			  <li>guy762_MeleeDamage_electrical</li>
 			  <li>guy762_BeamDamage_electrical</li>
