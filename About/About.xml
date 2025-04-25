@@ -58,6 +58,8 @@
 		<li>guy762.KotORWeapons</li>
 		<li>guy762.KotORDroids</li>
 		<li>guy762.KotORFactions</li>
+		
+		<li>lee.theforce.lightsaber</li>
 	</loadAfter>
 	<incompatibleWith>
 	  <li>lee.theforce.psycast</li>

@@ -2,7 +2,7 @@
 <Defs>
 
 	
-	  <AbilityDef>
+	<AbilityDef>
 		<defName>guy762_StealthDeactivate_ForceCloak</defName>
 		<label>exit stealth mode</label>
 		<description>Deactivate an active stealth field or Force camouflage ability.</description>
