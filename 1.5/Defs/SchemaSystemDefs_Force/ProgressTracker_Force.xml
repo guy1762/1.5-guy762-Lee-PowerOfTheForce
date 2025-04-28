@@ -85,8 +85,9 @@
 		<progressTrackerDef>SWPotF_ProgressTracker_ForceLvl</progressTrackerDef>
 		
 		<expTags>
-			<li>SWPotF_ForceEXPTag_DuringJob</li>
+			<li>SWPotF_ForceEXPTag_DuringMeditation</li>
 			<li>SWPotF_ForceEXPTag_OnSkillEXP</li>
+			<li>SWPotF_ForceEXPTag_OnInteraction_MentorshipTraining</li>
 		</expTags>
 	</ItsSorceryFramework.ProgressTrackerClassDef>	
 	
@@ -243,9 +244,9 @@
 		</linkedClasses>
 		
 		<prereqLevel>10</prereqLevel>
-		<prereqsClassDefs>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_1thru10_ForceLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
 		
 		<levelRange>10~20</levelRange>
 		<levelLabels>
@@ -368,10 +369,16 @@
 			</li>
 		</linkedClasses>
 		
+		<prereqTraitMode>Or</prereqTraitMode>
+		<prereqTraits>
+			<PsychicSensitivity>1</PsychicSensitivity>
+			<SWPotF_Trait_psyultrasensitive />
+		</prereqTraits>
+		
 		<prereqLevel>20</prereqLevel>
-		<prereqsClassDefs>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_10thru20_ForceLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
 		
 		<levelRange>20~30</levelRange>
 		<levelLabels>
@@ -484,10 +491,16 @@
 			</li>
 		</linkedClasses>
 		
+		<prereqTraitMode>Or</prereqTraitMode>
+		<prereqTraits>
+			<PsychicSensitivity>2</PsychicSensitivity>
+			<SWPotF_Trait_psyultrasensitive />
+		</prereqTraits>
+		
 		<prereqLevel>30</prereqLevel>
-		<prereqsClassDefs>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_20thru30_ForceLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
 		
 		<levelRange>30~40</levelRange>
 		<levelLabels>
@@ -592,10 +605,14 @@
 		<label>Legend Force training</label>
 		<description>.</description>
 		
-		<prereqLevel>30</prereqLevel>
-		<prereqsClassDefs>
+		<prereqLevel>40</prereqLevel>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_30thru40_ForceLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
+		
+		<prereqTraits>
+			<SWPotF_Trait_psyultrasensitive />
+		</prereqTraits>
 		
 		<levelRange>40~50</levelRange>
 		<levelLabels>

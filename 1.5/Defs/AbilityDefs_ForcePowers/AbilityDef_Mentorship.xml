@@ -33,7 +33,7 @@
 		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
 		
 		
-		<cooldownTicksRange>36000</cooldownTicksRange>
+		<cooldownTicksRange>36000</cooldownTicksRange> <!-- 14 hours -->
 		<stunTargetWhileCasting>true</stunTargetWhileCasting>
 		
 		<jobDef>CastAbilityOnThingMelee</jobDef>
@@ -249,8 +249,19 @@
 	
 	
 	<JobDef>
-		<defName>SWPotF_CastAbilityOnThingMelee</defName> <!-- this is needed so the schema XP giver can give extra Force XP specifically for being taught by a mentor -->
+		<defName>SWPotF_Job_CastAbilityOnThingMelee</defName> <!-- this is needed so the schema XP giver can give extra Force XP specifically for being taught by a mentor -->
 		<driverClass>JobDriver_CastAbilityMelee</driverClass>
+		<casualInterruptible>false</casualInterruptible>
+		<collideWithPawns>true</collideWithPawns>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	
+	
+	
+	<JobDef>
+		<defName>SWPotF_Job_TeachLesson</defName>
+		<driverClass>JobDriver_Lessongiving</driverClass>
+		<reportString>teaching a lesson.</reportString>
 		<casualInterruptible>false</casualInterruptible>
 		<collideWithPawns>true</collideWithPawns>
 		<neverShowWeapon>true</neverShowWeapon>
@@ -274,16 +285,16 @@
 		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
 		
 		
-		<cooldownTicksRange>64000</cooldownTicksRange>
+		<cooldownTicksRange>64000</cooldownTicksRange> <!-- 1.1 days -->
 		<stunTargetWhileCasting>true</stunTargetWhileCasting>
 		
-		<jobDef>SWPotF_CastAbilityOnThingMelee</jobDef>
+		<jobDef>SWPotF_Job_TeachLesson</jobDef>
 		<verbProperties>		
 			<verbClass>Verb_CastAbility</verbClass>
 			<violent>false</violent>
 			<range>-1</range>
 			<requireLineOfSight>false</requireLineOfSight>
-			<warmupTime>0.5</warmupTime>
+			<warmupTime>5</warmupTime>
 			<targetParams>
 				<!--<onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>-->
 				<canTargetSelf>false</canTargetSelf>
@@ -348,9 +359,13 @@
 	  <InteractionDef>
 		<defName>guy762_InteractDef_trainingcombat</defName>
 		<label>combat training</label>
-		<workerClass>InteractionWorker</workerClass>
+		<!-- <workerClass>InteractionWorker</workerClass> -->
 		<ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
 		<symbol>UI/ForceIcons/Power_Training_Combat</symbol>
+		
+		<initiatorThought>Chitchat</initiatorThought>
+		<recipientThought>Chitchat</recipientThought>
+		
 		<logRulesInitiator>
 		  <include>
 			<li>LessonInteractionHowTo</li>

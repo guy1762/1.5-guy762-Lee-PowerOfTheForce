@@ -45,7 +45,7 @@
 			<Force_Lightside_Attunement>0.5</Force_Lightside_Attunement>
 			<PsychicSensitivity>0.50</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.25</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.75</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.25</SWPotF_ForcePoints_Recovery>
 			
 			<PawnBeauty>2</PawnBeauty>
 		</statOffsets>
@@ -65,7 +65,7 @@
 			<Force_Lightside_Attunement>0.25</Force_Lightside_Attunement>
 			<PsychicSensitivity>0.25</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.10</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.5</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.125</SWPotF_ForcePoints_Recovery>
 			
 			<PawnBeauty>1</PawnBeauty>
 		</statOffsets>
@@ -84,7 +84,7 @@
 			<Force_Lightside_Attunement>0.10</Force_Lightside_Attunement>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.25</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.05</SWPotF_ForcePoints_Recovery>
 		</statOffsets>
 		<biostatCpx>5</biostatCpx>
 	</GeneDef>
@@ -113,7 +113,7 @@
 			<Force_Darkside_Attunement>0.10</Force_Darkside_Attunement>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.25</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.10</SWPotF_ForcePoints_Recovery>
 		</statOffsets>
 		<biostatCpx>5</biostatCpx>
 	  </GeneDef>
@@ -132,7 +132,7 @@
 			<Force_Darkside_Attunement>0.25</Force_Darkside_Attunement>
 			<PsychicSensitivity>0.25</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.10</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.5</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.20</SWPotF_ForcePoints_Recovery>
 			
 			<PawnBeauty>-1</PawnBeauty>
 		</statOffsets>
@@ -193,7 +193,7 @@
 			<Force_Darkside_Attunement>0.5</Force_Darkside_Attunement>
 			<PsychicSensitivity>0.50</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.25</PsychicEntropyRecoveryRate>
-			<SWPotF_ForcePoints_Recovery>0.75</SWPotF_ForcePoints_Recovery>
+			<SWPotF_ForcePoints_Recovery>0.30</SWPotF_ForcePoints_Recovery>
 			
 			<PawnBeauty>-2</PawnBeauty>
 		</statOffsets>

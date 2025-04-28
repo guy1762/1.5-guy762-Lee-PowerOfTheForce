@@ -73,9 +73,9 @@
 		<pointReq>1</pointReq>
 		
 		<prereqLevel>9</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_shock</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_lightning</li>
@@ -105,9 +105,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>18</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_lightning</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_storm</li>
@@ -163,9 +163,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>25</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_choke</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_crush</li>
@@ -219,9 +219,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_wound</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_kill</li>
@@ -279,9 +279,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_affliction</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityGain>
 			<li>SWPotF_forcepower_plague</li>
@@ -336,9 +336,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>6</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_fear</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_horror</li>
@@ -360,9 +360,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_horror</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityGain>
 			<li>SWPotF_forcepower_insanity</li>
@@ -409,9 +409,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>9</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_screamI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_scream</li>
@@ -436,9 +436,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>15</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_screamII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advscream</li>
@@ -499,9 +499,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>18</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_drainlife</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_deathfield</li>
@@ -566,9 +566,9 @@
 		<pointReq>1</pointReq>
 		
 		<prereqLevel>9</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_drainforceI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_drainforce</li>
@@ -602,9 +602,9 @@
 		<pointReq>1</pointReq>
 		
 		<prereqLevel>15</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_drainforceII</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_advdrainforce</li>
@@ -664,9 +664,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>17</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_rendI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_rend</li>
@@ -699,9 +699,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>24</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_rendII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advrend</li>
@@ -768,9 +768,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>20</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_furyI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_fury</li>
@@ -803,9 +803,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>24</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeDS_furyII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advfury</li>

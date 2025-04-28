@@ -41,10 +41,19 @@
 		<progressTrackerDef>SWPotF_ProgressTracker_HeroModeLvl</progressTrackerDef>
 		
 		<expTags>
-			<!-- <li>SWPotF_ForceEXPTag_DuringJob</li> -->
+			<li>SWPotF_HeroEXPTag_OnQuestWin</li>
 			<!-- <li>SWPotF_ForceEXPTag_OnSkillEXP</li> -->
 		</expTags>
 	</ItsSorceryFramework.ProgressTrackerClassDef>	
+	
+	
+	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnQuestFinish">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnQuestFinish</workerClass>
+		<defName>SWPotF_HeroEXPTag_OnQuestWin</defName>
+		<fixedEXP>100</fixedEXP>
+		<questOutcome>Success</questOutcome>
+		<questDefs/>
+	</ItsSorceryFramework.ProgressEXPTagDef>
 	
 	
 	
@@ -138,7 +147,7 @@
 	
 	
 	
-	<!--\\\\\\\\\\\\\\ knight rank \\\\\\\\\\\\\\-->
+	<!--\\\\\\\\\\\\\\ adv rank \\\\\\\\\\\\\\-->
 	
 	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "SWPotF_ProgressTrackerClass_base_HeroModeLvl">
 		<defName>SWPotF_ProgressTrackerClass_10thru20_HeroModeLvl</defName>
@@ -154,9 +163,9 @@
 		</linkedClasses>
 		
 		<prereqLevel>10</prereqLevel>
-		<prereqsClassDefs>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_1thru10_HeroModeLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
 		
 		<levelRange>10~20</levelRange>
 		<levelLabels>
@@ -245,9 +254,9 @@
 		<description>.</description>
 		
 		<prereqLevel>20</prereqLevel>
-		<prereqsClassDefs>
+		<prereqClasses>
 			<li>SWPotF_ProgressTrackerClass_10thru20_HeroModeLvl</li>
-		</prereqsClassDefs>
+		</prereqClasses>
 		
 		<levelRange>20~30</levelRange>
 		<levelLabels>

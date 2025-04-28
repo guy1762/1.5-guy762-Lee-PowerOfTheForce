@@ -5,6 +5,6 @@
 		<li>1.5</li>
 		<!-- <li IfModActive="erdelf.HumanoidAlienRaces">1.5/AdditionalMods/HAR</li> -->
 		
-		<li IfModNotActive="lee.theforce.lightsaber">1.5/AdditionalMods/_NO_ForceLightsabers</li>
+		<!-- <li IfModNotActive="lee.theforce.lightsaber">1.5/AdditionalMods/_NO_ForceLightsabers</li> -->
 	</v1.5>
 </loadFolders>

@@ -79,7 +79,7 @@
 				<hungerRateFactor>99</hungerRateFactor>
 				<restFallFactor>99</restFallFactor>
 				<statFactors>
-					<SWPotF_ForcePoints_Recovery>10</SWPotF_ForcePoints_Recovery> <!-- about +50 over 10sec with no FP offset modifiers -->
+					<SWPotF_ForcePoints_Recovery>100</SWPotF_ForcePoints_Recovery> <!-- about +50 over 10sec with no FP offset modifiers -->
 				</statFactors>
 			</li>
 		</stages>
@@ -176,7 +176,7 @@
 				<hungerRateFactor>66</hungerRateFactor>
 				<restFallFactor>66</restFallFactor>
 				<statFactors>
-					<SWPotF_ForcePoints_Recovery>20</SWPotF_ForcePoints_Recovery> <!-- about +100 over 10sec with no FP offset modifiers -->
+					<SWPotF_ForcePoints_Recovery>200</SWPotF_ForcePoints_Recovery> <!-- about +100 over 10sec with no FP offset modifiers -->
 				</statFactors>
 			</li>
 		</stages>
@@ -272,7 +272,7 @@
 				<hungerRateFactor>33</hungerRateFactor>
 				<restFallFactor>33</restFallFactor>
 				<statFactors>
-					<SWPotF_ForcePoints_Recovery>30</SWPotF_ForcePoints_Recovery> <!-- about +150 over 10sec with no FP offset modifiers -->
+					<SWPotF_ForcePoints_Recovery>300</SWPotF_ForcePoints_Recovery> <!-- about +150 over 10sec with no FP offset modifiers -->
 				</statFactors>
 			</li>
 		</stages>

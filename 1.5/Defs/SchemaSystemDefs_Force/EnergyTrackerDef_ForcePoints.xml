@@ -19,6 +19,20 @@
 				<overchargeRecoveryFactor>-0.5</overchargeRecoveryFactor>
 				<deficitRecoveryFactor>0.5</deficitRecoveryFactor>
 			</li>
+			<li Class = "ItsSorceryFramework.EnergyTrackerCompProperties_JobBase">
+				<compClass>ItsSorceryFramework.EnergyTrackerComp_DuringJob</compClass>
+				<scalingStatDef>SWPotF_ForcePoints_Recovery</scalingStatDef>
+				<baseEnergy>3</baseEnergy>
+				<jobSetLabel>Meditating</jobSetLabel>
+				<jobDefs>
+					<li>Meditate</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Reign</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">MeditatePray</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">PruneGauranlenTree</li>
+				</jobDefs>
+			</li>
+			
+			
 			<li Class = "ItsSorceryFramework.EnergyTrackerCompProperties_DamageBase">    <!-- gives points for dealing this damage -->
 				<compClass>ItsSorceryFramework.EnergyTrackerComp_OnDamage</compClass>
 				<scalingStatDef>SWPotF_ForcePoints_ForceDamageScaling</scalingStatDef>
@@ -35,6 +49,22 @@
 			</li>-->
 		</comps>
 	</ItsSorceryFramework.EnergyTrackerDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	<!-- FORCE DRAIN STUFF -->
@@ -135,7 +165,7 @@
 		<showIfHediffsPresent><li>SWPotF_Hediff_ForceProgression</li></showIfHediffsPresent>
 		<category>BasicsPawn</category>
 		
-		<defaultBaseValue>0.5</defaultBaseValue>
+		<defaultBaseValue>0.05</defaultBaseValue>
 		
 		<toStringStyle>FloatTwo</toStringStyle>
 		<showOnAnimals>false</showOnAnimals>

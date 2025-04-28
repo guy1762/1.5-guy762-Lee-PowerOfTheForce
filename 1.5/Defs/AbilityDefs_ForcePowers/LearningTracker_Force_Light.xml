@@ -76,9 +76,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_cure</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_heal</li>
@@ -100,9 +100,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>18</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_heal</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityGain>
 			<li>SWPotF_forcepower_advheal</li>
@@ -169,9 +169,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>15</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_revitalizeI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_revitalize</li>
@@ -204,9 +204,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>21</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_revitalizeII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advrevitalize</li>
@@ -260,9 +260,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>6</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_armorI</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_aura</li>
@@ -287,9 +287,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_armorII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_shield</li>
@@ -350,9 +350,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>9</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_barrierI</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_barrier</li>
@@ -377,9 +377,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>15</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_barrierII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advbarrier</li>
@@ -430,9 +430,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>9</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_valorI</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_valor</li>
@@ -457,9 +457,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>15</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_valorII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_knightvalor</li>
@@ -521,9 +521,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_focusI</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_focus</li>
@@ -595,9 +595,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>17</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_battleprecogI</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityRemove>
 			<li>SWPotF_forcepower_battleprecog</li>
@@ -630,9 +630,9 @@
 		<pointReq>1</pointReq>
 				
 		<prereqLevel>24</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_battleprecogII</li>
-		</prereqs>
+		</prereqNodes>
 
 		<abilityRemove>
 			<li>SWPotF_forcepower_advprecog</li>
@@ -699,9 +699,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>17</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_disarm</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_disarmfield</li>
@@ -768,9 +768,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>12</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_stun</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_stunfield</li>
@@ -800,9 +800,9 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>18</prereqLevel>
-		<prereqs>
+		<prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_stunfield</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<abilityGain>
 			<li>SWPotF_forcepower_pacify</li>
@@ -867,7 +867,7 @@
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
 		<prereqLevel>25</prereqLevel>
-		<!--prereqs>
+		<!--prereqNodes>
 			<li>SWPotF_ForceTreeNodeLS_valorIII</li>
 			<li>SWPotF_ForceTreeNodeLS_armorIII</li>
 			<li>SWPotF_ForceTreeNodeUniv_speedIII</li>
@@ -910,9 +910,9 @@
 		<coordY>5</coordY>
 		<pointReq>2</pointReq>
 				
-		<prereqs>
+		<prereqNodes>
 			<li>ISFE_Node_Logos_Design</li>
-		</prereqs>
+		</prereqNodes>
 		<exclusiveNodes>
 			<li>ISFE_Node_Logos_Surrender</li>
 		</exclusiveNodes>
@@ -932,9 +932,9 @@
 		<coordY>0</coordY>
 		<pointReq>2</pointReq>
 				
-		<prereqs>
+		<prereqNodes>
 			<li>ISFE_Node_Logos_Refinement</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<hediffAdjust>
 			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
@@ -951,9 +951,9 @@
 		<coordY>0</coordY>
 		<pointReq>2</pointReq>
 				
-		<prereqs>
+		<prereqNodes>
 			<li>ISFE_Node_Logos_Collection</li>
-		</prereqs>
+		</prereqNodes>
 		
 		<hediffAdjust>
 			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
