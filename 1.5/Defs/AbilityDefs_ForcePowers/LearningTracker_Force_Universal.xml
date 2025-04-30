@@ -134,6 +134,11 @@
 			<li>SWPotF_forcepower_saberthrow</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>1</coordX>
 		<coordY>1</coordY>
 		<pointReq>1</pointReq>
@@ -157,6 +162,11 @@
 			<li>SWPotF_forcepower_advsaberthrow</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>9</coordX>
 		<coordY>1</coordY>
 		<pointReq>1</pointReq>
@@ -177,6 +187,11 @@
 			<li>SWPotF_forcepower_knightspeed</li>
 		</abilityGain-->
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>18</coordX>
 		<coordY>1</coordY>
 		<pointReq>1</pointReq>
@@ -196,6 +211,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_speed</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>1</coordX>
 		<coordY>2</coordY>
@@ -220,6 +240,11 @@
 			<li>SWPotF_forcepower_knightspeed</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>9</coordX>
 		<coordY>2</coordY>
 		<pointReq>1</pointReq>
@@ -243,6 +268,11 @@
 			<li>SWPotF_forcepower_mstspeed</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>15</coordX>
 		<coordY>2</coordY>
 		<pointReq>1</pointReq>
@@ -265,6 +295,11 @@
 			<li>SWPotF_forcepower_slow</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.015</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -281,6 +316,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_stasis</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.015</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>9</coordX>
 		<coordY>3</coordY>
@@ -303,6 +343,11 @@
 			<li>SWPotF_forcepower_whirlwind</li>
 		</abilityGain-->
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.015</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>15</coordX>
 		<coordY>3</coordY>
 		<pointReq>1</pointReq>
@@ -323,6 +368,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_jump</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>1</coordX>
 		<coordY>4</coordY>
@@ -347,6 +397,11 @@
 			<li>SWPotF_forcepower_knightjump</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>6</coordX>
 		<coordY>4</coordY>
 		<pointReq>1</pointReq>
@@ -369,6 +424,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_mstjump</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>12</coordX>
 		<coordY>4</coordY>
@@ -461,6 +521,11 @@
 			<li>SWPotF_forcepower_energyres</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>1</coordX>
 		<coordY>6</coordY>
 		<pointReq>1</pointReq>
@@ -483,6 +548,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_advenergyres</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>9</coordX>
 		<coordY>6</coordY>
@@ -507,6 +577,11 @@
 			<li>SWPotF_forcepower_mstenergyres</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>17</coordX>
 		<coordY>6</coordY>
 		<pointReq>1</pointReq>
@@ -529,6 +604,11 @@
 			<li>SWPotF_forcepower_forceresist</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>9</coordX>
 		<coordY>7</coordY>
 		<pointReq>1</pointReq>
@@ -548,6 +628,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_forceimmune</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>15</coordX>
 		<coordY>7</coordY>
@@ -569,6 +654,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_suppression</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>9</coordX>
 		<coordY>8</coordY>
@@ -593,6 +683,11 @@
 			<li>SWPotF_forcepower_breach</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>15</coordX>
 		<coordY>8</coordY>
 		<pointReq>1</pointReq>
@@ -612,6 +707,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_forcebody</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.04</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>1</coordX>
 		<coordY>9</coordY>
@@ -636,6 +736,11 @@
 			<li>SWPotF_forcepower_advforcebody</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.04</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>9</coordX>
 		<coordY>9</coordY>
 		<pointReq>1</pointReq>
@@ -659,6 +764,11 @@
 			<li>SWPotF_forcepower_mstforcebody</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.04</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>15</coordX>
 		<coordY>9</coordY>
 		<pointReq>1</pointReq>
@@ -677,6 +787,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_confusion</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>1</coordX>
 		<coordY>10</coordY>
@@ -701,6 +816,11 @@
 			<li>SWPotF_forcepower_mindtrick</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>15</coordX>
 		<coordY>10</coordY>
 		<pointReq>1</pointReq>
@@ -720,6 +840,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_affectmind</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.02</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
 		<coordX>1</coordX>
 		<coordY>11</coordY>
@@ -744,6 +869,11 @@
 			<li>SWPotF_forcepower_dominatemind</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.01</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.02</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 		<coordX>6</coordX>
 		<coordY>11</coordY>
 		<pointReq>1</pointReq>
@@ -765,6 +895,11 @@
 			<li>SWPotF_forcepower_droidstun</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>1</coordX>
 		<coordY>12</coordY>
 		<pointReq>1</pointReq>
@@ -785,6 +920,11 @@
 			<li>SWPotF_forcepower_droiddisable</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>6</coordX>
 		<coordY>12</coordY>
 		<pointReq>1</pointReq>
@@ -804,6 +944,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_droiddestroy</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>12</coordX>
 		<coordY>12</coordY>
@@ -871,6 +1016,11 @@
 			<li>SWPotF_forcepower_blasterstorm</li>
 		</abilityGain>
 		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
 		<coordX>6</coordX>
 		<coordY>14</coordY>
 		<pointReq>1</pointReq>
@@ -893,6 +1043,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_advblasterstorm</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>12</coordX>
 		<coordY>14</coordY>
@@ -917,6 +1072,11 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_mstblasterstorm</li>
 		</abilityGain>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.015</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
 		<coordX>18</coordX>
 		<coordY>14</coordY>
@@ -945,14 +1105,18 @@
 		<coordY>17</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.075</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.25</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -974,14 +1138,18 @@
 		<coordY>17</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.075</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.35</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -1003,14 +1171,18 @@
 		<coordY>17</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.075</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.5</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -1034,14 +1206,18 @@
 		<coordY>17</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.075</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.65</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -1065,14 +1241,18 @@
 		<coordY>17</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.075</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.75</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -1097,14 +1277,18 @@
 		<coordY>18</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_SpiritualAlignment>0.5</SWPotF_SpiritualAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -1129,14 +1313,18 @@
 		<coordY>18</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_SpiritualAlignment>0.70</SWPotF_SpiritualAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -1161,14 +1349,18 @@
 		<coordY>18</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_SpiritualAlignment>0.85</SWPotF_SpiritualAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	

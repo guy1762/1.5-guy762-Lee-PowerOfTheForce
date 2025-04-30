@@ -369,11 +369,11 @@
 			</li>
 		</linkedClasses>
 		
-		<prereqTraitMode>Or</prereqTraitMode>
-		<prereqTraits>
-			<PsychicSensitivity>1</PsychicSensitivity>
-			<SWPotF_Trait_psyultrasensitive />
-		</prereqTraits>
+		<!-- <prereqTraitMode>Or</prereqTraitMode> -->
+		<!-- <prereqTraits> -->
+			<!-- <PsychicSensitivity>1</PsychicSensitivity> -->
+			<!-- <SWPotF_Trait_psyultrasensitive /> -->
+		<!-- </prereqTraits> -->
 		
 		<prereqLevel>20</prereqLevel>
 		<prereqClasses>

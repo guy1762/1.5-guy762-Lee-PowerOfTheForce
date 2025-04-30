@@ -56,9 +56,12 @@
 			<li>SWPotF_forcepower_cure</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.05</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		
 		
 		<!--hediffAdd>
 			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>1</severity></li>
@@ -84,9 +87,12 @@
 			<li>SWPotF_forcepower_heal</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.04</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -108,17 +114,20 @@
 			<li>SWPotF_forcepower_advheal</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.05</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -144,18 +153,21 @@
 			<li>SWPotF_forcepower_revitalize</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.05</SWPotF_SpiritualAlignment>
+		</statOffsets>
 		
-		<!--prereqsStats>
+		
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -180,17 +192,20 @@
 			<li>SWPotF_forcepower_advrevitalize</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.05</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -215,17 +230,20 @@
 			<li>SWPotF_forcepower_mstrevitalize</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.05</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -248,9 +266,11 @@
 		<coordY>2</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.02</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -275,9 +295,11 @@
 		<coordY>2</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.02</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -302,17 +324,19 @@
 		<coordY>2</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.02</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -338,9 +362,11 @@
 		<coordY>3</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -365,9 +391,11 @@
 		<coordY>3</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -392,9 +420,11 @@
 		<coordY>3</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -418,9 +448,7 @@
 		<coordY>4</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -445,9 +473,7 @@
 		<coordY>4</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -472,17 +498,15 @@
 		<coordY>4</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -504,14 +528,14 @@
 		<coordY>5</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -536,14 +560,14 @@
 		<coordY>5</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
@@ -570,18 +594,20 @@
 			<li>SWPotF_forcepower_battleprecog</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
 		
-		<!--prereqsStats>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -606,17 +632,19 @@
 			<li>SWPotF_forcepower_advprecog</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -641,17 +669,19 @@
 			<li>SWPotF_forcepower_mstprecog</li>
 		</abilityGain>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -679,17 +709,19 @@
 		<coordY>7</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -711,17 +743,19 @@
 		<coordY>7</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -748,17 +782,19 @@
 		<coordY>8</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -780,17 +816,19 @@
 		<coordY>8</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -812,17 +850,19 @@
 		<coordY>8</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.035</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	
@@ -847,17 +887,19 @@
 		<coordY>9</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--statOffsets>
-			<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
-		</statOffsets-->
-		<!--prereqsStats>
+		<statOffsets>
+			<!-- <SWPotF_MartialAlignment>0.03</SWPotF_MartialAlignment> -->
+			<SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment>
+		</statOffsets>
+		
+		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
 					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats-->
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -886,14 +928,19 @@
 		<coordY>9</coordY>
 		<pointReq>1</pointReq>
 		
-		<!--prereqsStats>
+		
+		<statOffsets>
+			<SWPotF_MartialAlignment>0.1</SWPotF_MartialAlignment>
+			<!-- <SWPotF_SpiritualAlignment>0.075</SWPotF_SpiritualAlignment> -->
+		</statOffsets>
+		<prereqStats>
 			<li>
 				<mode>Greater</mode>
 				<statReqs>
-					<Force_Lightside_Attunement>0.05</Force_Lightside_Attunement>
+					<SWPotF_MartialAlignment>0.5</SWPotF_MartialAlignment>
 				</statReqs>
 			</li>
-		</prereqsStats-->
+		</prereqStats>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	

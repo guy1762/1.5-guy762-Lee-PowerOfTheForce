@@ -223,7 +223,7 @@
 	
 	<StatDef>
         <defName>Force_Lightside_Attunement</defName>
-        <label>Lightside Attunement</label>
+        <label>Lightside Enlightenment</label>
         <description>The influence of the lightside on the pawn.</description>
         <category>BasicsPawn</category>
         <minValue>0</minValue>
@@ -246,6 +246,38 @@
         <showOnAnimals>true</showOnAnimals>
         <showOnMechanoids>false</showOnMechanoids>
         <displayPriorityInCategory>76207</displayPriorityInCategory>
+        <scenarioRandomizable>true</scenarioRandomizable>
+    </StatDef>
+	
+	
+	
+	
+	
+	<StatDef>
+        <defName>SWPotF_MartialAlignment</defName>
+        <label>Martial Alignment</label>
+        <description>A pawn's alignment with the 'martial' aspects of Force-use.</description>
+        <category>BasicsPawn</category>
+        <minValue>0</minValue>
+        <defaultBaseValue>0</defaultBaseValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <showOnAnimals>true</showOnAnimals>
+        <showOnMechanoids>false</showOnMechanoids>
+        <displayPriorityInCategory>76208</displayPriorityInCategory>
+        <scenarioRandomizable>true</scenarioRandomizable>
+    </StatDef>
+	
+	<StatDef>
+        <defName>SWPotF_SpiritualAlignment</defName>
+        <label>Spiritual Alignment</label>
+        <description>A pawn's alignment with the 'spiritual' aspects of Force-use.</description>
+        <category>BasicsPawn</category>
+        <minValue>0</minValue>
+        <defaultBaseValue>0</defaultBaseValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <showOnAnimals>true</showOnAnimals>
+        <showOnMechanoids>false</showOnMechanoids>
+        <displayPriorityInCategory>76209</displayPriorityInCategory>
         <scenarioRandomizable>true</scenarioRandomizable>
     </StatDef>
 	

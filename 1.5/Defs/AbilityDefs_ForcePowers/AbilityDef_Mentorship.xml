@@ -288,7 +288,7 @@
 		<cooldownTicksRange>64000</cooldownTicksRange> <!-- 1.1 days -->
 		<stunTargetWhileCasting>true</stunTargetWhileCasting>
 		
-		<jobDef>SWPotF_Job_TeachLesson</jobDef>
+		<jobDef>SWPotF_Job_CastAbilityOnThingMelee</jobDef>
 		<verbProperties>		
 			<verbClass>Verb_CastAbility</verbClass>
 			<violent>false</violent>
