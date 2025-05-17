@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceRevitalize</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Revitalize</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>9</level>
 		<aiCanUse>true</aiCanUse>
@@ -117,7 +117,7 @@
 			<HediffDef>SWPotF_hediff_ForceRevitalize</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Improved_Revitalize</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>true</aiCanUse>
@@ -200,7 +200,7 @@
 			<HediffDef>SWPotF_hediff_ForceRevitalize</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Master_Revitalize</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>21</level>
 		<aiCanUse>true</aiCanUse>

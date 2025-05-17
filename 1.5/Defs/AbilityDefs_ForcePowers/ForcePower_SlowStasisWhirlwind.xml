@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceSlow</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Slow</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<aiCanUse>true</aiCanUse>
@@ -109,7 +109,7 @@
 			<HediffDef>SWPotF_hediff_ForceStasis</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Stasis</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>9</level>

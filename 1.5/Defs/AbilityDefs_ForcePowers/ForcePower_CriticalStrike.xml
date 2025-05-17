@@ -6,7 +6,7 @@
 		<label>Sun Djerm</label>
 		<description>Use the Force to guide a melee strike that targets an opponents weapon, destroying it permanently. Only usable while a lightsaber is equipped, and cannot be used on bosses.</description>
 		<iconPath>UI/ForceIcons/Power_CritStrike_weapon</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>false</aiCanUse>
@@ -56,7 +56,7 @@
 		<label>Cho Mai</label>
 		<description>Use the Force to guide a melee strike that targets an opponents hand, severing it and disarming them. Only usable while a lightsaber is equipped, and cannot be used on bosses.</description>
 		<iconPath>UI/ForceIcons/Power_CritStrike_hand</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>18</level>
 		<aiCanUse>false</aiCanUse>
@@ -106,7 +106,7 @@
 		<label>Cho Mok</label>
 		<description>Use the Force to guide a melee strike that targets a random limb on the opponent, severing it. Only usable while a lightsaber is equipped, and cannot be used on bosses.</description>
 		<iconPath>UI/ForceIcons/Power_CritStrike_randomlimb</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>21</level>
 		<aiCanUse>false</aiCanUse>
@@ -156,7 +156,7 @@
 		<label>Sai Tok</label>
 		<description>Use the Force to guide a melee strike that bisects an opponent at the waist, severing their legs. Only usable while a lightsaber is equipped, and cannot be used on bosses.</description>
 		<iconPath>UI/ForceIcons/Power_CritStrike_bisect</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>26</level>
 		<aiCanUse>false</aiCanUse>
@@ -206,7 +206,7 @@
 		<label>Sai Cha</label>
 		<description>Use the Force to guide a melee strike that decapitates an opponent, severing their head. Only usable while a lightsaber is equipped, and cannot be used on bosses.</description>
 		<iconPath>UI/ForceIcons/Power_CritStrike_head</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>30</level>
 		<aiCanUse>false</aiCanUse>

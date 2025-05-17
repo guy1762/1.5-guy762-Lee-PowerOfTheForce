@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceWound</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Wound</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<aiCanUse>true</aiCanUse>
@@ -143,7 +143,7 @@
 			<HediffDef>SWPotF_hediff_ForceKill</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_Kill</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>12</level>

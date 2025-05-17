@@ -6,7 +6,7 @@
 		<label>Force jump</label>
 		<description>Use the Force to leap to a visible spot within 10 meters.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Feat_Force_Jump</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>1</level>
@@ -56,7 +56,7 @@
 		<description>Use the Force to leap to a visible spot within 20 meters.</description>
 		<!--description>Use the Force to leap to a visible spot within 20 meters, also giving a minor buff to melee damage and accuracy.</description-->
 		<iconPath>UI/ForceIcons/N/KotORII_Feat_Improved_Force_Jump</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>6</level>
@@ -144,7 +144,7 @@
 		<description>Use the Force to leap to any accessible spot within 30 meters.</description>
 		<!--description>Use the Force to leap to any accessible spot within 30 meters, also giving a buff to melee damage and accuracy.</description-->
 		<iconPath>UI/ForceIcons/N/KotORII_Feat_Master_Force_Jump</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>12</level>

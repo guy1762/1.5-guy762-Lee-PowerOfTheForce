@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceChoke</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Choke</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc9</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>9</level>
@@ -171,7 +171,7 @@
 			<HediffDef>SWPotF_hediff_ForceCrush</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Force_Crush</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc9</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>25</level>

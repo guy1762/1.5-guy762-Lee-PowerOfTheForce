@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ERes</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Energy_Resistance</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<aiCanUse>true</aiCanUse>
 		<ai_IsOffensive>false</ai_IsOffensive>
@@ -173,7 +173,7 @@
 			<HediffDef>SWPotF_hediff_AdvERes</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Improved_Energy_Resistance</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<level>9</level>
 		<aiCanUse>true</aiCanUse>
@@ -350,7 +350,7 @@
 			<HediffDef>SWPotF_hediff_MstERes</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Master_Energy_Resistance</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<level>17</level>
 		<aiCanUse>true</aiCanUse>

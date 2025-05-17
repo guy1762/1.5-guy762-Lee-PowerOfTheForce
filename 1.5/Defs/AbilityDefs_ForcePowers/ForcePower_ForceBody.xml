@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceBody</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Force_Body</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>1</level>
 		<aiCanUse>true</aiCanUse>
@@ -106,7 +106,7 @@
 			<HediffDef>SWPotF_hediff_AdvForceBody</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Improved_Force_Body</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>9</level>
 		<aiCanUse>true</aiCanUse>
@@ -202,7 +202,7 @@
 			<HediffDef>SWPotF_hediff_MstForceBody</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Master_Force_Body</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>true</aiCanUse>

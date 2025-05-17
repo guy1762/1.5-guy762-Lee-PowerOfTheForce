@@ -6,7 +6,7 @@
 		<label>Force push</label>
 		<description>Use the Force to push a target away from the caster. Effectiveness scales with StaggerDurationFactor. Casting this will also cancel the "Force choke" hediff if it is active on the caster.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Force_Push</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc11</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<aiCanUse>true</aiCanUse>
@@ -175,7 +175,7 @@
 		<label>Force repulse</label>
 		<description>Use the Force to push all nearby targets away from the caster. Effectiveness scales with StaggerDurationFactor. Casting this will also cancel the "Force choke" and "Force crush" hediffs if they are active on the caster.</description>
 		<iconPath>UI/ForceIcons/Power_Force_Repulse</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc11</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>12</level>
@@ -268,7 +268,7 @@
 		<label>Force wave</label>
 		<description>Use the Force to push all targets within an angled radius away from the caster. Effectiveness scales with StaggerDurationFactor. Casting this will also cancel the "Force choke" hediff if it is active on the caster.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Force_Wave</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc11</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>15</level>

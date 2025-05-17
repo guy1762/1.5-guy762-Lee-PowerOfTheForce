@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceAura</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Force_Aura</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<aiCanUse>true</aiCanUse>
 		<ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
@@ -114,7 +114,7 @@
 			<HediffDef>SWPotF_hediff_ForceShield</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Force_Shield</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -225,7 +225,7 @@
 			<HediffDef>SWPotF_hediff_ForceArmor</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Force_Armor</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc4</hotKey>
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>

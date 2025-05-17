@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceValor</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Force_Valor</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>1</level>
 		<aiCanUse>true</aiCanUse>
@@ -157,7 +157,7 @@
 			<HediffDef>SWPotF_hediff_KnightValor</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Knight_Valor</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>9</level>
 		<aiCanUse>true</aiCanUse>
@@ -318,7 +318,7 @@
 			<HediffDef>SWPotF_hediff_MstValor</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Master_Valor</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>true</aiCanUse>

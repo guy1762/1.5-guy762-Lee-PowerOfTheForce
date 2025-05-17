@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_BlasterStorm</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_BlasterFocus</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -94,7 +94,7 @@
 			<HediffDef>SWPotF_hediff_AdvBlasterStorm</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_BlasterFocus_adv</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>
@@ -179,7 +179,7 @@
 			<HediffDef>SWPotF_hediff_MstBlasterStorm</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_BlasterFocus_mst</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>18</level>
 		<aiCanUse>true</aiCanUse>

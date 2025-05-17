@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceCloak</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Force_Camouflage</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>false</aiCanUse>
@@ -113,7 +113,7 @@
 			<HediffDef>SWPotF_hediff_KnightCloak</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Improved_Force_Camouflage</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>19</level>
 		<aiCanUse>false</aiCanUse>
@@ -216,7 +216,7 @@
 			<HediffDef>SWPotF_hediff_MstCloak</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Master_Force_Camouflage</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>23</level>
 		<aiCanUse>false</aiCanUse>

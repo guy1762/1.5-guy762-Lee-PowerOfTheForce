@@ -6,7 +6,7 @@
 		<label>Drain Force</label>
 		<description>Use the Force to drain raw Force energy from a Force-sensitive target, siphoning their available Force points while adding to the caster's. Only works on Force users.</description>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Drain_Force</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>1</level>
@@ -152,7 +152,7 @@
 		<label>Adv. drain Force</label>
 		<description>Use the Force to better drain raw Force energy from a Force-sensitive target, siphoning their available Force points while adding to the caster's. Only works on Force users.</description>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Improved_Drain_Force</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>9</level>
@@ -298,7 +298,7 @@
 		<label>Master drain Force</label>
 		<description>Use the Force to greatly drain raw Force energy from a Force-sensitive target, siphoning their available Force points while adding to the caster's. Only works on Force users.</description>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Master_Drain_Force</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>15</level>

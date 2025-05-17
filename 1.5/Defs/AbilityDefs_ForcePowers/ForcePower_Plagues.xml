@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceAffliction</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Affliction</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>6</level>
@@ -127,7 +127,7 @@
 			<HediffDef>SWPotF_hediff_ForcePlague</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Plague</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>12</level>

@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceFear</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Fear</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		
 		<aiCanUse>true</aiCanUse>

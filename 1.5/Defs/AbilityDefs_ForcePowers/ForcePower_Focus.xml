@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceFocus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Feat_Improved_Force_Focus</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -135,7 +135,7 @@
 		<label>knight focus</label>
 		<description>Use the Force to better bolster the skills of the caster. Also provides immunity to stun damage and removes debilitating conditions like sonic disorientation, electrocution, and Force-induced fear. Duration scales with the psychic sensitivity of the caster.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Feat_Improved_Force_Focus</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -286,7 +286,7 @@
 			<HediffDef>SWPotF_hediff_MstFocus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_Force_MasterFocusLS</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>

@@ -9,7 +9,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks-->
 		<iconPath>UI/ForceIcons/Force_power_Stun_Droid</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<aiCanUse>true</aiCanUse>
@@ -106,7 +106,7 @@
 			<HediffDef>guy762_IonizationBuildup</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Disable_Droid</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>6</level>
@@ -207,7 +207,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks-->
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Destroy_Droid</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>12</level>

@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceCure</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Cure</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc10</hotKey>
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -140,7 +140,7 @@
 			<HediffDef>SWPotF_hediff_ForceHeal</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotOR_Force_power_Heal</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc10</hotKey>
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>
@@ -243,7 +243,7 @@
 			<HediffDef>SWPotF_hediff_ForceHeal</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Master_Heal</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc10</hotKey>
 		
 		<level>18</level>
 		<aiCanUse>true</aiCanUse>

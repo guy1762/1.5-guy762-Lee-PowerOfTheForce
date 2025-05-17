@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceSpeed</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Burst_of_Speed</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>1</level>
@@ -103,7 +103,7 @@
 			<HediffDef>SWPotF_hediff_KnightSpeed</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Knight_Speed</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>9</level>
@@ -205,7 +205,7 @@
 			<HediffDef>SWPotF_hediff_MstSpeed</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Master_Speed</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey></hotKey>
 		
 		<sorcerySchema>SWPotF_ForceSchema</sorcerySchema>
 		<level>15</level>

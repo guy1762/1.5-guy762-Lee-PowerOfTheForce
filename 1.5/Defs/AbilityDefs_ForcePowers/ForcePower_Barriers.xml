@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_ForceBarrier</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Force_Barrier</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc7</hotKey>
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -112,6 +112,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li>guy762_GrenadeDamage_detpack</li>
 			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>
@@ -169,7 +170,7 @@
 			<HediffDef>SWPotF_hediff_AdvForceBarrier</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Improved_Force_Barrier</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc7</hotKey>
 		
 		<level>9</level>
 		<aiCanUse>true</aiCanUse>
@@ -273,6 +274,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li>guy762_GrenadeDamage_detpack</li>
 			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>
@@ -334,7 +336,7 @@
 			<HediffDef>SWPotF_hediff_MstForceBarrier</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Master_Force_Barrier</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc7</hotKey>
 		
 		<level>15</level>
 		<aiCanUse>true</aiCanUse>
@@ -439,6 +441,7 @@
 			  
 			  <li>Bomb</li>
 			  <li>guy762_GrenadeDamage_frag</li>
+			  <li>guy762_GrenadeDamage_detpack</li>
 			  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
 			</blockedDamageDefs>
 			<!--blacklistedDamageDefs>

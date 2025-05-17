@@ -9,7 +9,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Shock</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc5</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<aiCanUse>true</aiCanUse>
@@ -113,7 +113,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Force_Lightning</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc5</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>9</level>
@@ -231,7 +231,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Force_Storm</iconPath>
-		<hotKey>Misc12</hotKey>
+		<hotKey>Misc5</hotKey>
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>18</level>

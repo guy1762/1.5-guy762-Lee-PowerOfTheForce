@@ -6,7 +6,7 @@
 		<label>disarm</label>
 		<description>Use the Force to pull a target's weapon from their hands. Has a chance to cause the target to flee. Effectiveness scales with StaggerDurationFactor.</description>
 		<iconPath>UI/ForceIcons/Power_Force_Disarm</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>6</level>
 		<aiCanUse>true</aiCanUse>
@@ -144,7 +144,7 @@
 		<label>disarm field</label>
 		<description>Use the Force to pull multiple targets' weapons from their hands. Has a chance to cause the targets to flee. Effectiveness scales with StaggerDurationFactor.</description>
 		<iconPath>UI/ForceIcons/Power_Force_DisarmField</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>17</level>
 		<aiCanUse>true</aiCanUse>

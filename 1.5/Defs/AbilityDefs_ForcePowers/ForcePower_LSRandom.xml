@@ -150,7 +150,7 @@
 			<HediffDef>SWPotF_hediff_Enlightenment</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Force_Enlightenment</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>25</level>
 		<aiCanUse>true</aiCanUse>

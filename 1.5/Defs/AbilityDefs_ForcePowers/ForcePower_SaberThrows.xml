@@ -6,7 +6,7 @@
 		<label>throw lightsaber</label>
 		<description>Use the Force to throw the caster's lightsaber at a target.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Throw_Lightsaber</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>1</level>
@@ -95,7 +95,7 @@
 		<label>adv. throw lightsaber</label>
 		<description>Use the Force to throw the caster's lightsaber at multiple targets.</description>
 		<iconPath>UI/ForceIcons/N/KotORII_Power_Advanced_Throw_Lightsaber</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>9</level>

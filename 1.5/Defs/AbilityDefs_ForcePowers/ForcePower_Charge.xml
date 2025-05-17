@@ -9,7 +9,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_Charge</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>5</level>
@@ -91,7 +91,7 @@
 			<HediffDef>guy762_Electrocuted</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_ChargeDroid</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		<writeCombatLog>True</writeCombatLog>
 		
 		<level>7</level>

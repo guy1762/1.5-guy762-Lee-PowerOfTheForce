@@ -9,7 +9,7 @@
 			<HediffDef>SWPotF_hediff_BattlePrecognition</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_Battle_Precognition_base</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>
@@ -144,7 +144,7 @@
 			<HediffDef>SWPotF_hediff_BattlePrecognition</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/Power_Battle_Precognition_adv</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>17</level>
 		<aiCanUse>true</aiCanUse>
@@ -206,7 +206,7 @@
 			<HediffDef>SWPotF_hediff_BattlePrecognition</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/LS/KotORII_Power_Battle_Precognition</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>24</level>
 		<aiCanUse>true</aiCanUse>

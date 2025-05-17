@@ -10,7 +10,7 @@
 			<HediffDef>SWPotF_hediff_RendKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/FeatIcons/MeleeCombat/KotORII_Feat_Flurry</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>12</level>
 		<aiCanUse>true</aiCanUse>
@@ -172,7 +172,7 @@
 			<HediffDef>SWPotF_hediff_RendKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/FeatIcons/MeleeCombat/KotORII_Feat_Improved_Flurry</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>17</level>
 		<aiCanUse>true</aiCanUse>
@@ -275,7 +275,7 @@
 			<HediffDef>SWPotF_hediff_RendKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/FeatIcons/MeleeCombat/KotORII_Feat_Master_Flurry</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>24</level>
 		<aiCanUse>true</aiCanUse>

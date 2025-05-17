@@ -10,7 +10,7 @@
 			<HediffDef>SWPotF_hediff_FuryKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Fury</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>15</level>
 		<aiCanUse>true</aiCanUse>
@@ -185,7 +185,7 @@
 			<HediffDef>SWPotF_hediff_FuryKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Improved_Fury</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>20</level>
 		<aiCanUse>true</aiCanUse>
@@ -299,7 +299,7 @@
 			<HediffDef>SWPotF_hediff_FuryKillstreakBonus</HediffDef>
 		</descriptionHyperlinks>
 		<iconPath>UI/ForceIcons/DS/KotORII_Power_Master_Fury</iconPath>
-		<hotKey>Misc12</hotKey>
+		<!-- <hotKey>Misc12</hotKey> -->
 		
 		<level>24</level>
 		<aiCanUse>true</aiCanUse>
