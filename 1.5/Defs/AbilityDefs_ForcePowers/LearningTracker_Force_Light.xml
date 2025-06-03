@@ -520,6 +520,7 @@
 		<description>Use the Force to bolster the skills of the caster.</description>
 		<learningTrackerDef>SWPotF_ForceLearningTracker_tree_Light</learningTrackerDef>
 		
+		<prereqLevel>6</prereqLevel>
 		<abilityGain>
 			<li>SWPotF_forcepower_focus</li>
 		</abilityGain>
