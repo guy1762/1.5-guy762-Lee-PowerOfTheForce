@@ -4,7 +4,7 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon_guy762_SWPotF</modIconPath>
 	<description>BETA VERSION\n\nAdds Force powers and special Feat abilities based on Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords.</description>
 	<packageId>guy762.Lee.KotORPotF</packageId>
-	<url>https://github.com/guy1762/1.5ZIP_StarWarsKotORCore/tree/main</url>
+	<url>https://github.com/guy1762/guy762-Lee-PowerOfTheForce</url>
 	
 	
 	<supportedVersions>
@@ -34,7 +34,7 @@
 			<packageId>guy762.MM.KotORCore</packageId>
 			<displayName>Star Wars KotOR Resources and Materials</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/3254370945</steamWorkshopUrl>
-			<downloadUrl>https://github.com/guy1762/1.5ZIP_StarWarsKotORCore/tree/main</downloadUrl>
+			<downloadUrl>https://github.com/guy1762/guy762-MM-KotORCore</downloadUrl>
 		</li>
 	</modDependencies>
 	
