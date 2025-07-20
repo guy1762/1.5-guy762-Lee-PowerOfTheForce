@@ -715,6 +715,10 @@
 			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<!--prereqStats>
 			<li>
 				<mode>Greater</mode>
@@ -748,6 +752,10 @@
 			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.025</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<!--prereqStats>
 			<li>

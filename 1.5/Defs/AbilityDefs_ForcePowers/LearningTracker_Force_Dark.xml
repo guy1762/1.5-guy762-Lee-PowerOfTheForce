@@ -147,6 +147,10 @@
 			<li>SWPotF_forcepower_choke</li>
 		</abilityGain>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<statOffsets>
 			<SWPotF_MartialAlignment>0.025</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
@@ -178,6 +182,10 @@
 			
 			<!-- <Force_Darkside_Attunement>0.05</Force_Darkside_Attunement> -->
 		</statOffsets>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 
 		<!--prereqStats>
 			<li>

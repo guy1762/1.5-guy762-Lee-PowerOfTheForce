@@ -50,6 +50,10 @@
 			<li>SWPotF_forcepower_push</li>
 		</abilityGain>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<coordX>0</coordX>
 		<coordY>0</coordY>
 		<pointReq>1</pointReq>
@@ -70,6 +74,10 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_pull</li>
 		</abilityGain>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<coordX>1</coordX>
 		<coordY>0</coordY>
@@ -92,6 +100,10 @@
 			<li>SWPotF_forcepower_repulse</li>
 		</abilityGain>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<coordX>12</coordX>
 		<coordY>0</coordY>
 		<pointReq>1</pointReq>
@@ -112,6 +124,10 @@
 		<abilityGain>
 			<li>SWPotF_forcepower_wave</li>
 		</abilityGain>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<coordX>15</coordX>
 		<coordY>0</coordY>
@@ -138,6 +154,10 @@
 			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<coordX>1</coordX>
 		<coordY>1</coordY>
@@ -167,6 +187,10 @@
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<coordX>9</coordX>
 		<coordY>1</coordY>
 		<pointReq>1</pointReq>
@@ -191,6 +215,10 @@
 			<SWPotF_MartialAlignment>0.05</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<coordX>18</coordX>
 		<coordY>1</coordY>
@@ -295,6 +323,10 @@
 			<li>SWPotF_forcepower_slow</li>
 		</abilityGain>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<statOffsets>
 			<SWPotF_MartialAlignment>0.015</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
@@ -322,6 +354,10 @@
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
 		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
+		
 		<coordX>9</coordX>
 		<coordY>3</coordY>
 		<pointReq>1</pointReq>
@@ -347,6 +383,10 @@
 			<SWPotF_MartialAlignment>0.015</SWPotF_MartialAlignment>
 			<!-- <SWPotF_SpiritualAlignment>0.03</SWPotF_SpiritualAlignment> -->
 		</statOffsets>
+		
+		<prereqGenesProhibit>
+			<li MayRequire="guy762.NA.MM.SWVehicles">SWWE_Gene_HalcyonJedi</li>
+		</prereqGenesProhibit>
 		
 		<coordX>15</coordX>
 		<coordY>3</coordY>

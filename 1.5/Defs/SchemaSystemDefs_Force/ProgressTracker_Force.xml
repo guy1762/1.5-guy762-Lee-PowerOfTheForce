@@ -127,6 +127,10 @@
 			</li>
 		</linkedClasses>
 		
+		<prereqTraitsProhibit>
+			<PsychicSensitivity>-2</PsychicSensitivity>
+		</prereqTraitsProhibit>
+		
 		<levelRange>1~10</levelRange>
 		<levelLabels>
 			<li><level>1</level><label>initiate</label></li>
@@ -242,6 +246,10 @@
 				<removePostClassChange>True</removePostClassChange>
 			</li>
 		</linkedClasses>
+		
+		<prereqTraitsProhibit>
+			<PsychicSensitivity>-1</PsychicSensitivity>
+		</prereqTraitsProhibit>
 		
 		<prereqLevel>10</prereqLevel>
 		<prereqClasses>
@@ -369,11 +377,11 @@
 			</li>
 		</linkedClasses>
 		
-		<!-- <prereqTraitMode>Or</prereqTraitMode> -->
-		<!-- <prereqTraits> -->
-			<!-- <PsychicSensitivity>1</PsychicSensitivity> -->
-			<!-- <SWPotF_Trait_psyultrasensitive /> -->
-		<!-- </prereqTraits> -->
+		<prereqTraitMode>Or</prereqTraitMode>
+		<prereqTraits>
+			<PsychicSensitivity>1~2</PsychicSensitivity>
+			<SWPotF_Trait_psyultrasensitive />
+		</prereqTraits>
 		
 		<prereqLevel>20</prereqLevel>
 		<prereqClasses>
